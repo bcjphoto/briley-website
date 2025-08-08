@@ -1,0 +1,20 @@
+/* Takes all links and changes text color, font, and size */
+a:link {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:visited {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:hover {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:active {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+
+/* Takes the class and formats into a flexbox and adjusts size and centers items while spacing them */
+.header img {height: 100px; width: auto;}
+.header {display: flex; justify-content: space-evenly; align-items: center;}
+
+/* Takes class and formats into a flexbox and adjusts size of image */
+.tatum {display: block; height: auto; width: 35%; margin-left: auto; margin-right: auto; padding-top: 30px; padding-bottom: 50px;}
+
+/* Takes class and creates a wrapped flexbox and changes image size */
+.photos {display: flex; flex-wrap: wrap; justify-content: center;}
+.photos img {width: 30%; height: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;}
+
+/* Takes class and formats the links into a flexbox while centering while adding space between the links and adds space above the links */
+.footer {display: flex; padding-top: 50px; justify-content: center;}
+.footer a {padding-left: 50px; padding-right: 50px;}

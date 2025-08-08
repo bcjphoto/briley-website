@@ -1,0 +1,30 @@
+a:link {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:visited {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:hover {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:active {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+
+.header img {height: 100px; width: auto;}
+.header {display: flex; justify-content: space-evenly; align-items: center;}
+
+.contact {display: block; height: auto; width: 32%; margin-left: auto; margin-right: auto; padding-top: 30px; padding-bottom: 50px;}
+
+form {width: 20%; display: flex;  margin-left: auto; margin-right: auto; flex-direction: column; align-items: center; justify-content: center; background-color: pink; font-family: Georgia, serif; font-size: 20px;}
+form label {display: block; margin-top: 10px; margin-bottom: 10px;}
+form p {margin-top: 10px; margin-bottom: 10px;}
+form select {font-family: Georgia, serif; font-size: 15px; text-align: center;}
+input[type=submit] {background-color: pink; border: 2px solid white; display: block; padding: 20px 20px; font-size: 20px; font-family: Georgia, serif; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
+input[type=submit]:hover {background-color: white;}
+input {font-family: Georgia, serif; font-size: 15px; text-align: center;}
+textarea {font-family: Georgia, serif; font-size: 15px; text-align: center;}
+
+.information {text-align: center; font-family: Georgia, serif; font-size: 20px; padding-top: 50px;}
+.information:hover a {color: pink;}
+
+.handle {text-align: center; padding-top: 130px; padding-bottom: 10px; justify-content: center;}
+.handle:hover a {color: pink}
+
+.instagram img {height: auto; width: 8%; padding-left: 5px; padding-right: 5px;}
+.instagram {display: flex; justify-content: center;}
+
+.footer {display: flex; padding-top: 50px; justify-content: center;}
+.footer a {padding-left: 50px; padding-right: 50px;}

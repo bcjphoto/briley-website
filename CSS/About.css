@@ -1,0 +1,29 @@
+/* Takes all links and changes text color, font, and size */
+a:link {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:visited {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:hover {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:active {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+
+/* Takes the class and formats into a flexbox and adjusts size and centers items while spacing them */
+.header img {height: 100px; width: auto;}
+.header {display: flex; justify-content: space-evenly; align-items: center;}
+
+/* Takes class and formats into a flexbox and adjusts size of image */
+.about {display: block; height: auto; width: 35%; margin-left: auto; margin-right: auto; padding-top: 30px; padding-bottom: 50px;}
+
+/* Takes class and displays in a flexbox while centering while spacing out items. Also, changes image size and changes text size and font */
+.information {display: flex; align-items: center; justify-content: space-evenly;}
+.information img {width: 40%; height: auto;}
+.information pre {font-family: Georgia, serif; font-size: 40px;}
+
+/* Takes class and centers the text while adding space on top and bottom. Also, changes text color when user hovers over the link */
+.handle {text-align: center; padding-top: 130px; padding-bottom: 10px;}
+.handle:hover a {color: pink}
+
+/* Takes class and formats images into a flexbox while adjusting image size and centering them with space between */
+.instagram img {height: auto; width: 8%; padding-left: 5px; padding-right: 5px;}
+.instagram {display: flex; justify-content: center;}
+
+/* Takes class and formats the links into a flexbox while centering while adding space between the links and adds space above the links */
+.footer {display: flex; padding-top: 50px; justify-content: center;}
+.footer a {padding-left: 50px; padding-right: 50px;}

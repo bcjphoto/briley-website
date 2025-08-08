@@ -1,0 +1,26 @@
+a:link {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:visited {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:hover {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:active {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+
+.header img {height: 100px; width: auto;}
+.header {display: flex; justify-content: space-evenly; align-items: center;}
+
+.highlight img {height: auto; width: 16.66%;}
+.highlight {display: flex;}
+
+.logo {display: block; height: auto; width: 55%; margin-left: auto; margin-right: auto;}
+
+.paragraph {display: block; height: auto; width: 50%; margin-left: auto; margin-right: auto; padding-top: 75px; padding-bottom: 75px;}
+
+button {background-color: pink; border: none; display: block; padding: 40px 40px; font-size: 18px; font-family: Georgia, serif; margin-left: auto; margin-right: auto;}
+button:hover {background-color: white; border: 3px solid pink;}
+
+.handle {text-align: center; padding-top: 75px; padding-bottom: 10px;}
+.handle:hover a {color: pink}
+
+.instagram img {height: auto; width: 8%; padding-left: 5px; padding-right: 5px;}
+.instagram {display: flex; justify-content: center;}
+
+.footer {display: flex; padding-top: 50px; justify-content: center;}
+.footer a {padding-left: 50px; padding-right: 50px;}

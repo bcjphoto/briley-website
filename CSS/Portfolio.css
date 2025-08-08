@@ -1,0 +1,21 @@
+a:link {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:visited {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:hover {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+a:active {color: black; text-decoration: none; font-family: Georgia, serif; font-size: 20px;}
+
+.header img {height: 100px; width: auto;}
+.header {display: flex; justify-content: space-evenly; align-items: center;}
+
+.portfolio {display: block; height: auto; width: 35%; margin-left: auto; margin-right: auto; padding-top: 30px; padding-bottom: 50px;}
+
+button {background-color: pink; border: none; display: block; padding: 30px 30px; width: 10%; font-size: 22px; font-family: Georgia, serif; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
+button:hover {background-color: white; border: 3px solid pink;}
+
+.handle {text-align: center; padding-top: 130px; padding-bottom: 10px;}
+.handle:hover a {color: pink}
+
+.instagram img {height: auto; width: 8%; padding-left: 5px; padding-right: 5px;}
+.instagram {display: flex; justify-content: center;}
+
+.footer {display: flex; padding-top: 50px; justify-content: center;}
+.footer a {padding-left: 50px; padding-right: 50px;}
