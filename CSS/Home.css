@@ -22,5 +22,5 @@ button:hover {background-color: white; border: 3px solid pink;}
 .instagram img {height: auto; width: 8%; padding-left: 5px; padding-right: 5px;}
 .instagram {display: flex; justify-content: center;}
 
-.footer {display: flex; padding-top: 50px; justify-content: center; width: 100%}
+.footer {display: flex; padding-top: 50px; justify-content: center; box-sizing: border-box; flex-wrap: wrap;}
 .footer a {padding-left: 50px; padding-right: 50px;}
