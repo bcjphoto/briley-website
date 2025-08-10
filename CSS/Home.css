@@ -27,6 +27,7 @@ button:hover {background-color: white; border: 3px solid pink;}
 
 @media (max-width: 600px) {.header img {height: 35px; width: auto;} 
 .header a {font-size: 10px;}
+.footer {padding-top: 25px;}
 .footer a {padding-left: 10px; padding-right: 10px; font-size: 10px;} 
 .logo {width: 75%; height: auto;} 
 .paragraph {width: 75%; height: auto; padding-top: 25px; padding-bottom: 35px;} 
