@@ -32,7 +32,8 @@ button:hover {background-color: white; border: 3px solid pink;}
 .logo {width: 75%; height: auto;} 
 .paragraph {width: 75%; height: auto; padding-top: 25px; padding-bottom: 35px;} 
 button {width: 37%; padding: 20px 20px; margin-left: auto; margin-right: auto; font-size: 10px; color: black; text-align: center;} 
-.handle a {font-size: 10px; padding-top: 35px;}
+.handle {padding-top: 35px;}
+.handle a {font-size: 10px;}
 .instagram img {width: 9%; padding-left: 2px; padding-right: 2px;}
 }
 
