@@ -27,12 +27,12 @@ button:hover {background-color: white; border: 3px solid pink;}
 
 @media (max-width: 600px) {.header img {height: 35px; width: auto;} 
 .header a {font-size: 10px;}
-.footer {margin-bottom: 1px;}
+.footer {margin-top: 0;}
 .footer a {padding-left: 10px; padding-right: 10px; font-size: 10px;} 
 .logo {width: 75%; height: auto;} 
-.paragraph {width: 75%; height: auto; padding-top: 35px; margin-bottom: auto;} 
-button {width: 37%; padding: 20px 20px; margin-left: auto; margin-right: auto; font-size: 10px; color: black; text-align: center; margin-bottom: auto;} 
-.handle {padding-top: 35px; margin-bottom: 3px;}
+.paragraph {width: 75%; height: auto; margin-top: auto;} 
+button {width: 37%; padding: 20px 20px; margin-left: auto; margin-right: auto; font-size: 10px; color: black; text-align: center; margin-bottom: auto; margin-top: 15px;} 
+.handle {margin-top: auto; margin-bottom: 3px;}
 .handle a {font-size: 10px;}
 .instagram img {width: 9%; padding-left: 2px; padding-right: 2px;}
 .instagram {margin-bottom: 5px;}
