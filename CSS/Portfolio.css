@@ -25,7 +25,7 @@ button:hover {background-color: white; border: 3px solid pink;}
 .footer {margin-top: 10px; padding-top: 10px; padding-bottom: env(safe-area-inset-bottom);}
 .footer a {padding-left: 10px; padding-right: 10px; font-size: 10px;} 
 .logo {width: 75%; height: auto;}
-.handle {margin-top: auto; margin-bottom: 3px;}
+.handle {margin-bottom: 3px;}
 .handle a {font-size: 10px;}
 .instagram img {width: 9%; padding-left: 2px; padding-right: 2px;}
 .instagram {margin-bottom: 5px;}
