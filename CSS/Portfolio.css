@@ -22,6 +22,8 @@ button:hover {background-color: white; border: 3px solid pink;}
 
 @media (max-width: 600px)  {.header img {height: 35px; width: auto;} 
 .header a {font-size: 10px;}
+.footer {margin-top: 10px; padding-top: 10px; padding-bottom: env(safe-area-inset-bottom);}
+.footer a {padding-left: 10px; padding-right: 10px; font-size: 10px;} 
 .logo {width: 75%; height: auto;}
 .handle {margin-top: auto; margin-bottom: 3px;}
 .handle a {font-size: 10px;}
