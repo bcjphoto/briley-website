@@ -19,3 +19,21 @@ button:hover {background-color: white; border: 3px solid pink;}
 
 .footer {display: flex; padding-top: 50px; justify-content: center;}
 .footer a {padding-left: 50px; padding-right: 50px;}
+
+@media (max-width: 600px)  {.header img {height: 35px; width: auto;} 
+.header a {font-size: 10px;}
+.logo {width: 75%; height: auto;}
+.handle {margin-top: auto; margin-bottom: 3px;}
+.handle a {font-size: 10px;}
+.instagram img {width: 9%; padding-left: 2px; padding-right: 2px;}
+.instagram {margin-bottom: 5px;}
+html, body {height: -webkit-fill-available;}
+body {display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh;}
+}
+
+@media (min-width: 601px) and (max-width: 900px) {.footer a {padding-left: 25px; padding-right: 25px;}
+button {color: black;}
+}
+
+@media (min-width: 901px) {button {color: black;}
+}
